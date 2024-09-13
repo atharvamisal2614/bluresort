@@ -8,10 +8,15 @@ import dateFormat from "dateformat";
 import { calculateTotalAmount } from "@/helpers/calculateAmount";
 import { Coupon } from "@/models/Coupon";
 // // PROD
-var mid = "283812";
-var username = "4122808";
-var password = "ZP3NYUbj";
-var secret = "W5ZNu44mda6JFBaR";
+// var mid = "283812";
+// var username = "4122808";
+// var password = "ZP3NYUbj";
+// var secret = "W5ZNu44mda6JFBaR";
+
+var mid = process.env.MID
+var username = process.env.USERNAME
+var password = process.env.PASSWORD
+var secret = process.env.SECRET
 
 // TEST
 // var mid = "270462";

@@ -11,6 +11,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        greatVibes:['Great Vibes', 'cursive'],
+      },
       colors: {
         primary: '#16acbd'
       }

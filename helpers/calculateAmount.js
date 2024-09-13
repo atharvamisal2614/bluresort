@@ -59,3 +59,11 @@ export const calculateTotalAmount = (
   }
   return (amount * reqRooms * (100 - coupon.discount)) / 100;
 };
+
+
+
+
+
+
+
+

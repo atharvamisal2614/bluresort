@@ -116,3 +116,9 @@ button {
     font-weight: normal;
   }
 }
+@font-face {
+  font-family: 'Great Vibes';
+  src: url('/events/great_vibes.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
